@@ -1,0 +1,20 @@
+@import 'blocks/header';
+@import 'blocks/main/main';
+
+
+html {
+    display: table;
+    background-color: #F6F7F9;
+    ;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+*{
+    @media (width <= 376px) {
+        margin: 0;
+        padding: 0;
+    }
+}
